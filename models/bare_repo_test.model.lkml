@@ -5,6 +5,7 @@ include: "/views/**/*.view"
 
 datagroup: bare_repo_test_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
+  #testtt
   max_cache_age: "1 hour"
 }
 
